@@ -29,6 +29,7 @@ export const doSignOut = () => {
   return auth.signOut();
 };
 
+// Password Reset function
 export const doPasswordReset = (email) => {
   return sendPasswordResetEmail(auth, email);
 };
